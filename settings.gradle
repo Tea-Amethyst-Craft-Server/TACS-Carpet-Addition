@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+        maven { url "https://maven.fabricmc.net/" }
+    }
+}
+
+dependencyResolutionManagement {
+    // Allow Loom to inject its own internal repositories
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+    repositories {
+        mavenCentral()
+        maven { url "https://maven.fabricmc.net/" }
+    }
+    repositories {
+        mavenCentral()
+        maven { url "https://maven.fabricmc.net/" }
+    }
+}
+
+rootProject.name = "happy-tnt-extension"
