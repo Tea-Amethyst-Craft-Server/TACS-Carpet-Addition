@@ -50,9 +50,6 @@ public class ExampleExtension implements CarpetExtension
         //         catch (CommandSyntaxException ignored) { }
         //     }
         // });
-
-        // register our HappyTNT chat handler
-        HappyTntHandler.register();
     }
 
     @Override

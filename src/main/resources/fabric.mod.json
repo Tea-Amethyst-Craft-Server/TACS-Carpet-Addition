@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "carpet-extension",
-  "version": "1.4.6",
+  "id": "TCA",
+  "version": "0.1.0",
 
-  "name": "Example Carpet Extension Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "TACS Carpet Addition",
+  "description": "包含核心功能的地毯扩展 | ",
   "authors": [
-    "Me!"
+    "PeterFujiyu"
   ],
   "contact": {
     "homepage": "https://web.me/",
     "sources": "https://github.com/gnembon/fabric-carpet-extension-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPL3.0",
+  "icon": "assets/modid/tacs.png",
 
   "environment": "*",
   "entrypoints": {
@@ -26,8 +26,8 @@
   ],
 
   "depends": {
-    "minecraft": "1.16.x",
-    "fabricloader": ">=0.4.0",
+    "minecraft": ">=1.21.2",
+    "fabricloader": "*",
     "carpet": "*"
   },
   "suggests": {

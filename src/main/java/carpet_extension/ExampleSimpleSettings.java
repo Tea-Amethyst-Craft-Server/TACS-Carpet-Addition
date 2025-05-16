@@ -46,7 +46,11 @@ public class ExampleSimpleSettings
 
     @Rule(
     desc = "When true, typing !!tnt in chat shows the big title ‘Hahaha…’",
-    category = { "fun", "examplemod" })
-    public static boolean happyTNT = false;
+    category = { "fun", "TCA" })
+    public static boolean happyTNT;
+
+    static {
+        happyTNT = false;
+    }
 
 }
